@@ -10,7 +10,7 @@
   include '../includes/header.php';
 ?>
 
-<div class="text-center">
+<div class="text-center flex-grow-1">
   <h2 class="mb-4">Hoş Geldiniz, <?php echo htmlspecialchars($_SESSION['hasta_ad'] ?? 'Kullanıcı'); ?></h2>
 
   <div class="row justify-content-center">
@@ -24,5 +24,3 @@
     </div>
   </div>
 </div>
-
-<?php include '../includes/footer.php'; ?>

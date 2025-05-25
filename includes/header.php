@@ -13,10 +13,16 @@ if (!is_logged_in()) {
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-  <meta charset="UTF-8">
-  <title>Randevu Sistemi</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="icon" href="../assets/logo.png" type="image/png">
+    <meta charset="UTF-8">
+    <title>Randevu Sistemi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="../assets/logo.png" type="image/png">
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -31,10 +37,10 @@ if (!is_logged_in()) {
 
     <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
       <ul class="navbar-nav">
-        <li class="nav-item"><a class="nav-link" href="../pages/dashboard.php">Ana Sayfa</a></li>
-        <li class="nav-item"><a class="nav-link" href="../pages/randevu_al.php">Randevu Al</a></li>
-        <li class="nav-item"><a class="nav-link" href="../pages/randevularim.php">Randevularım</a></li>
-        <li class="nav-item"><a class="nav-link" href="../pages/doktor_sorgu.php">Doktor Sorgu</a></li>
+        <li class="nav-item"><a class="nav-link" href="../pages/dashboard.php"><i class="fa-solid fa-hospital"></i>  Ana Sayfa</a></li>
+        <li class="nav-item"><a class="nav-link" href="../pages/randevu_al.php"><i class="fa-solid fa-notes-medical"></i>  Randevu Al</a></li>
+        <li class="nav-item"><a class="nav-link" href="../pages/randevularim.php"><i class="fa-solid fa-stethoscope"></i>  Randevularım</a></li>
+        <li class="nav-item"><a class="nav-link" href="../pages/doktor_sorgu.php"><i class="fa-solid fa-user-doctor"></i>  Doktor Sorgu</a></li>
       </ul>
 
       <span class="navbar-text text-light me-3">
@@ -43,7 +49,7 @@ if (!is_logged_in()) {
         ?>
       </span>
 
-      <a href="../pages/logout.php" class="btn btn-outline-light">Çıkış</a>
+      <a href="../pages/logout.php" class="btn btn-outline-light"><i class="fa-solid fa-right-from-bracket"></i>  Çıkış</a>
     </div>
   </div>
 </nav>
