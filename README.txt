@@ -16,7 +16,7 @@ Mail = talhazpsatalay01@gmail.com
 
 Hastane randevu sistemi, hayali bir kurum olan TALHA ATALAY HOSPITAL'ın Hastalarına, Online bir şekilde randevu hizmeti sağlayan bir arayüzdür.
 Projede doktorların müsaitlik durumuna göre randevu alınabilmektedir.
-Ödev açıklamasında herhangi bir yönetim panelinden veya doktor arayüzünden bahsedilmediği için projeye eklemedim.
+Ödev açıklamasında herhangi bir yönetim panelinden veya doktor arayüzünden bahsedilmediği için projeye eklenmedi.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 Kullanılan Teknolojiler:
 
