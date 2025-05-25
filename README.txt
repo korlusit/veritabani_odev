@@ -25,3 +25,7 @@ Kullanılan Teknolojiler:
 - Arayüzün geliştirilmesi ve göze güzel görünmesi için Bootstrap kütüphanesi kullanılmıştır.(Projeye direk dahil edilmeden CDN olarak aktarılmıştır)
 - Veritabanı oluşturulması ve düzenlenmesi işlemleri phpMyadmin arayüzünde yapılmıştır.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
+Erişim - Versiyon Kontrol:
+Proje Git kullanılarak geliştirilmiş, ve Github'a eklenmiştir. Aşağıdaki linktende projeye erişim sağlayabilirsiniz.
+
+https://github.com/korlusit/veritabani_odev
