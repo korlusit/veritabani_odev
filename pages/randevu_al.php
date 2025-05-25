@@ -86,10 +86,8 @@
 
       <button type="submit" class="btn btn-success">Randevu Al</button>
     </form>
-  <?php endif; ?>
 
-  <?php
-    if (isset($_GET['doktor_id'])) {
+    <?php
         $doktor_id = intval($_GET['doktor_id']);
         echo "<h5 class='mt-4'>Doktorun Randevu Takvimi</h5>";
 
@@ -98,7 +96,7 @@
             $saatler[] = sprintf("%02d:00", $hour);
         }
 
-        for ($i = 0; $i <= 10; $i++) {
+        for ($i = 0; $i < 10; $i++) {
             $tarih = date('Y-m-d', strtotime("+$i day"));
             echo "<div class='mt-3'>";
             echo "<h6>" . date('d.m.Y', strtotime($tarih)) . "</h6>";
@@ -111,9 +109,9 @@
                 $stmt->store_result();
 
                 if ($stmt->num_rows > 0) {
-                    echo "<button class='btn btn-danger disabled'>$saat</button>";
+                    echo "<button type='button' class='btn btn-danger disabled'>$saat</button>";
                 } else {
-                    echo "<button class='btn btn-success disabled'>$saat</button>";
+                    echo "<button type='button' class='btn btn-success randevu-btn' data-tarih='$tarih' data-saat='$saat'>$saat</button>";
                 }
 
                 $stmt->close();
@@ -121,8 +119,23 @@
 
             echo "</div></div>";
         }
-    }
-  ?>
+    ?>
+  <?php endif; ?>
 </div>
+
+<script>
+document.querySelectorAll('.randevu-btn').forEach(button => {
+  button.addEventListener('click', () => {
+    const tarih = button.getAttribute('data-tarih');
+    const saat = button.getAttribute('data-saat');
+
+    document.getElementById('tarih').value = tarih;
+    document.getElementById('saat').value = saat;
+
+    document.querySelectorAll('.randevu-btn').forEach(btn => btn.classList.remove('btn-warning'));
+    button.classList.add('btn-warning');
+  });
+});
+</script>
 
 <?php include '../includes/footer.php'; ?>

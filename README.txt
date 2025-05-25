@@ -20,8 +20,8 @@ Projede doktorların müsaitlik durumuna göre randevu alınabilmektedir.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 Kullanılan Teknolojiler:
 
-- Projede sunucu iletişimi ve arkayüz işlemleri için SQL+PHP kullanılmıştır.
-- Projede arayüz işaretleme ve tasarım dilleri olarak HTML5+CSS kullanılmıştır.
+- Projede sunucu iletişimi ve arkayüz işlemleri için SQL + PHP kullanılmıştır.
+- Projede arayüz işaretleme ve tasarım dilleri olarak HTML5 + CSS + JS kullanılmıştır.
 - Arayüzün geliştirilmesi ve göze güzel görünmesi için Bootstrap kütüphanesi kullanılmıştır.(Projeye direk dahil edilmeden CDN olarak aktarılmıştır)
 - Veritabanı oluşturulması ve düzenlenmesi işlemleri phpMyadmin arayüzünde yapılmıştır.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------

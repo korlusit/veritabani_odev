@@ -36,7 +36,7 @@
 
       echo "<h4 class='text-secondary mt-5'>Doktorun Randevu Takvimi</h4>";
 
-      for ($gun = 0; $gun <= 10; $gun++) {
+      for ($gun = 0; $gun < 10; $gun++) {
           $tarih = date('Y-m-d', strtotime("+$gun day"));
 
           echo "<div class='mt-4'>";
