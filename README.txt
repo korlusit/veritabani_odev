@@ -29,3 +29,4 @@ Erişim - Versiyon Kontrol:
 Proje Git kullanılarak geliştirilmiş, ve Github'a eklenmiştir. Aşağıdaki linktende projeye erişim sağlayabilirsiniz.
 
 https://github.com/korlusit/veritabani_odev
+------------------------------------------------------------------------------------------------------------------------------------------------------------
